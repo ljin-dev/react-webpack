@@ -1,7 +1,7 @@
 Build React Based Components with Webpack
 ====================================
 
-A rapid build environment for building Ract based components in ES6.
+A rapid build environment for developing React based components in ES6.
 
 Things the environment does:
 * Installing dependent libraries
@@ -32,12 +32,11 @@ Build (transpile) bundle.
 npm run build
 ```
 
-Start Webpack Dev Server.
+Start Webpack Dev Server. In the browser, access 'http://localhost:8080' to check out.
 
 ```shell
 npm start
 ```
-Then in the browser, access 'http://localhost:8080' to check out.
 
 The default port of Webpack Dev Server is 8080. You can change it by editing file of 'package.json' at line 8:
 
