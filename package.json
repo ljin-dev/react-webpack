@@ -5,7 +5,7 @@
   "description": "React based APM Bundle Report",
   "scripts": {
     "test": "mocha --compilers js:babel-register,jsx:babel-register --require dev/helpers/beforeTest.js --recursive test/specs",
-    "start": "webpack-dev-server --hot --inline",
+    "start": "webpack-dev-server --hot --inline --port 8081",
     "build": "webpack --progress --colors",
     "clean": "node dev/helpers/cleanBuild.js"
   },
