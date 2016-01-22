@@ -1,0 +1,45 @@
+{
+  "name": "react-report",
+  "private": true,
+  "version": "0.0.2",
+  "description": "React based APM Bundle Report",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register,jsx:babel-register --require dev/helpers/beforeTest.js --recursive test/specs",
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack --progress --colors",
+    "clean": "node dev/helpers/cleanBuild.js"
+  },
+  "author": "Lu <lu.jin@appfolio.com>",
+  "license": "Proprietary",
+  "dependencies": {
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "nuclear-js": "^1.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "css-loader": "^0.9.1",
+    "jsdom": "^7.2.2",
+    "marked": "^0.3.2",
+    "mocha": "^2.3.4",
+    "prismjs": "^1.3.0",
+    "react-addons-test-utils": "^0.14.5",
+    "style-loader": "^0.8.3",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.8.0",
+    "extract-text-webpack-plugin": "^0.3.8",
+    "html-webpack-plugin": "^2.7.1",
+    "copy-webpack-plugin": "^0.3.3",
+    "fs-extra": "^0.26.4"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "es2015"
+    ]
+  }
+}

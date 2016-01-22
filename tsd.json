@@ -1,0 +1,12 @@
+{
+  "version": "v4",
+  "repo": "appfolio",
+  "ref": "master",
+  "path": "dev/typedef",
+  "bundle": "dev/typedef/tsd.d.ts",
+  "installed": {
+    "node/node.d.ts": {
+      "commit": "4ba73ef59f93e38a70573cfc46375de37b004635"
+    }
+  }
+}
