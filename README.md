@@ -4,10 +4,10 @@ Build React Based Components with Webpack
 A rapid build environment for developing React based components in ES6.
 
 Things the environment does:
-* Installing dependent libraries
+* Installing dependencies
 * Transpiling source files from ES6 and JSX into an ES5 bundle
 * Supporting JSDom based unit testing with no need for browsers
-* Supporting manual test in browsers with hot reload
+* Supporting in-browser testing with hot reload
 * Removing dependency on Rails/Sprockets and UMD
 * Supporting Visual Studio Code DTS based intellisense (code auto completion and checking)
 
